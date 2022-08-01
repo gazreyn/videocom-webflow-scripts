@@ -1,0 +1,15 @@
+{
+  "name": "videocom-webflow-scripts",
+  "version": "0.0.1",
+  "description": "Minified scripts used on the webflow website",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build-download",
+    "build-download": "uglifyjs ./src/download.js --compress --mangle -o ./build/download.min.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "uglify-js": "^3.16.3"
+  }
+}
