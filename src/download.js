@@ -6,12 +6,14 @@ function setActiveDownloadLinks(os) {
     const productLinks = {
         presenter: {
             mac: '',
-            windows: 'https://installers.videocom.com/presenter/windows',
+            windows:
+                'https://installers.videocom.com/presenter/windows/installer.exe',
             linux: '',
         },
         capture: {
-            mac: 'https://installers.videocom.com/capture/macos',
-            windows: 'https://installers.videocom.com/capture/windows',
+            mac: 'https://installers.videocom.com/capture/macos/installer.pkg',
+            windows:
+                'https://installers.videocom.com/capture/windows/installer.exe',
             linux: '',
         },
     };
